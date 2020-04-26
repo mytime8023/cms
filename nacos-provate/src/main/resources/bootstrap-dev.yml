@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+       server-addr: 106.54.31.196:8848
+      config:
+        enabled: true
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+        file-extension: yml

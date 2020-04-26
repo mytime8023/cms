@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev
+app:
+  id: BMS-MANAGE
+apollo:
+  bootstrap:
+    enabled: true
+  meta: http://106.54.31.196:8080
+  env: dev
