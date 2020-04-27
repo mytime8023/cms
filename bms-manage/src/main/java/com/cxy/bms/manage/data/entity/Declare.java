@@ -39,8 +39,10 @@ public class Declare {
 
     private LocalDateTime updateTime;
 
-    private String createEmployee;
+    private String userName;
 
     private String updateEmployee;
+
+    private String password;
 
 }
